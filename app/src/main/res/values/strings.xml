@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Tip Calculator</string>
+    <string name="bill_hint">Bill amount</string>
+    <string name="tip_label">Tip: %1$d%%</string>
+    <string name="people_label">Split between: %1$d</string>
+    <string name="tip_amount">Tip: %1$s</string>
+    <string name="total_amount">Total: %1$s</string>
+    <string name="per_person">Per person: %1$s</string>
+</resources>
