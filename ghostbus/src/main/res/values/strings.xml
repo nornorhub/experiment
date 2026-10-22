@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Ghost Bus</string>
+    <string name="setup_intro">Ghost Bus shows where NJ Transit buses really are, flags buses with no live GPS (the ones that often never show up), and keeps your own log of how late each route runs at your stops.\n\nIt uses NJ Transit\'s official live data, which needs a free NJ Transit developer account. Register at https://developer.njtransit.com, then sign in here with that username and password. They are stored only on this phone.</string>
+    <string name="search_hint">Stop name or the number on the bus-stop sign</string>
+</resources>

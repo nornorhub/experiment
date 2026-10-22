@@ -12,5 +12,5 @@ dependencyResolutionManagement {
         mavenCentral()
     }
 }
-rootProject.name = "TipCalculator"
-include ":app"
+rootProject.name = "nornorhub-apps"
+include ":app", ":ghostbus"
