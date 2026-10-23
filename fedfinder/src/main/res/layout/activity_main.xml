@@ -115,6 +115,7 @@
 
         <Button
             android:id="@+id/search"
+            android:textAllCaps="false"
             android:layout_width="match_parent"
             android:layout_height="56dp"
             android:layout_marginTop="12dp"
@@ -127,10 +128,12 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginTop="8dp"
+            android:baselineAligned="false"
             android:orientation="horizontal">
 
             <Button
                 android:id="@+id/saved_jobs"
+                android:textAllCaps="false"
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
@@ -138,6 +141,7 @@
 
             <Button
                 android:id="@+id/saved_searches"
+                android:textAllCaps="false"
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"

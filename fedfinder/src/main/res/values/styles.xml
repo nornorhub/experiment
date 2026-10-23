@@ -4,5 +4,7 @@
         <item name="android:colorPrimary">#112E51</item>
         <item name="android:colorPrimaryDark">#0B1F38</item>
         <item name="android:colorAccent">#C7362F</item>
+        <!-- Android 15 draws apps edge to edge, which puts content under the action bar. Keep content below it. -->
+        <item name="android:windowOptOutEdgeToEdgeEnforcement">true</item>
     </style>
 </resources>
