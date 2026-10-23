@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">FedFinder</string>
+    <string name="setup_intro">FedFinder searches every job and internship on USAJOBS, the official federal jobs site, using its official search API.\n\nThe API needs a free key: request one at https://developer.usajobs.gov/apirequest/ (it\'s emailed to you), then enter it here with the email you used. Both are stored only on this phone.\n\nFedFinder isn\'t made by USAJOBS or OPM. You always apply on usajobs.gov itself.</string>
+</resources>

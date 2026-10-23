@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="16dp">
+
+        <EditText
+            android:id="@+id/keyword"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Job title, keyword or series (e.g. 2210)"
+            android:imeOptions="actionSearch"
+            android:importantForAutofill="no"
+            android:inputType="text"
+            android:singleLine="true" />
+
+        <EditText
+            android:id="@+id/location"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="City, state or ZIP (blank = anywhere)"
+            android:importantForAutofill="no"
+            android:inputType="textPostalAddress"
+            android:singleLine="true" />
+
+        <Spinner
+            android:id="@+id/radius"
+            android:layout_width="match_parent"
+            android:layout_height="48dp" />
+
+        <CheckBox
+            android:id="@+id/internships"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:text="🎓 Internships (students &amp; Pathways interns)"
+            android:textSize="16sp" />
+
+        <CheckBox
+            android:id="@+id/recent_grads"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="🎓 Recent graduates"
+            android:textSize="16sp" />
+
+        <CheckBox
+            android:id="@+id/remote"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="🏠 Remote jobs only"
+            android:textSize="16sp" />
+
+        <Spinner
+            android:id="@+id/who_may_apply"
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:layout_marginTop="8dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:text="Pay grade (GS)"
+            android:textColor="#6B6B6B" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical"
+            android:orientation="horizontal">
+
+            <Spinner
+                android:id="@+id/grade_low"
+                android:layout_width="0dp"
+                android:layout_height="48dp"
+                android:layout_weight="1" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingLeft="8dp"
+                android:paddingRight="8dp"
+                android:text="to" />
+
+            <Spinner
+                android:id="@+id/grade_high"
+                android:layout_width="0dp"
+                android:layout_height="48dp"
+                android:layout_weight="1" />
+        </LinearLayout>
+
+        <EditText
+            android:id="@+id/min_salary"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Minimum salary per year (optional)"
+            android:importantForAutofill="no"
+            android:inputType="number"
+            android:singleLine="true" />
+
+        <Spinner
+            android:id="@+id/schedule"
+            android:layout_width="match_parent"
+            android:layout_height="48dp" />
+
+        <Spinner
+            android:id="@+id/sort"
+            android:layout_width="match_parent"
+            android:layout_height="48dp" />
+
+        <Button
+            android:id="@+id/search"
+            android:layout_width="match_parent"
+            android:layout_height="56dp"
+            android:layout_marginTop="12dp"
+            android:backgroundTint="#112E51"
+            android:text="🔍 Search USAJOBS"
+            android:textColor="#FFFFFF"
+            android:textSize="17sp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/saved_jobs"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="⭐ Saved jobs" />
+
+            <Button
+                android:id="@+id/saved_searches"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="🔔 Saved searches" />
+        </LinearLayout>
+    </LinearLayout>
+</ScrollView>

@@ -28,6 +28,7 @@ jobs:
           ./gradlew --no-daemon assembleDebug
           cp app/build/outputs/apk/debug/app-debug.apk TipCalculator.apk
           cp ghostbus/build/outputs/apk/debug/ghostbus-debug.apk GhostBus.apk
+          cp fedfinder/build/outputs/apk/debug/fedfinder-debug.apk FedFinder.apk
 
       - uses: actions/upload-artifact@v4
         with:
@@ -41,8 +42,10 @@ jobs:
           name: Apps build ${{ github.run_number }}
           target_commitish: ${{ github.sha }}
           body: |
+            - **FedFinder.apk**: USAJOBS search with internship filters, saved jobs and new-job alerts
             - **GhostBus.apk**: NJ Transit bus tracker (live GPS, ghost-bus warnings, your own lateness log)
             - **TipCalculator.apk**: tip calculator
           files: |
+            FedFinder.apk
             GhostBus.apk
             TipCalculator.apk

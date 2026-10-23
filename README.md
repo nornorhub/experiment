@@ -4,6 +4,22 @@ Small Android apps. Every push runs the **Build APK** GitHub Actions workflow, w
 unit tests, builds the apps, and publishes the APKs on the repository's **Releases** page.
 Download an APK on your phone and open it to install (allow "install unknown apps" when asked).
 
+## 🇺🇸 FedFinder (`fedfinder/`)
+
+Searches every job on [USAJOBS](https://www.usajobs.gov) (there's no official app) using the official
+USAJOBS Search API.
+
+- Keyword, location + distance, remote only, GS grade range, minimum salary, full/part-time, who can apply
+- **🎓 Internships** (students and Pathways interns) and **recent graduates** filters
+- Sort by best match, newest, closing soonest or highest pay
+- Job cards with plain-English pay (hourly pay also shown per year), grade and a deadline countdown
+- Full listings with **Apply on USAJOBS**, Save and Share
+- ⭐ Saved jobs, sorted by deadline
+- 🔔 Saved searches that check for new jobs every few hours and notify you
+
+Needs a free USAJOBS API key: request one at <https://developer.usajobs.gov/apirequest/> and enter it
+with your email in the app. Not affiliated with USAJOBS or OPM; you always apply on usajobs.gov.
+
 ## 👻🚌 Ghost Bus (`ghostbus/`)
 
 An NJ Transit bus tracker for when the official app's times can't be trusted.

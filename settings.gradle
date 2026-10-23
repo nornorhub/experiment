@@ -13,4 +13,4 @@ dependencyResolutionManagement {
     }
 }
 rootProject.name = "nornorhub-apps"
-include ":app", ":ghostbus"
+include ":app", ":ghostbus", ":fedfinder"

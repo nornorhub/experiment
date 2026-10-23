@@ -1,0 +1,103 @@
+{
+  "LanguageCode": "EN",
+  "SearchParameters": {},
+  "SearchResult": {
+    "SearchResultCount": 3,
+    "SearchResultCountAll": 1234,
+    "SearchResultItems": [
+      {
+        "MatchedObjectId": "812345600",
+        "MatchedObjectDescriptor": {
+          "PositionID": "VA-26-ABC-123",
+          "PositionTitle": "IT Specialist (INFOSEC)",
+          "PositionURI": "https://www.usajobs.gov:443/job/812345600",
+          "ApplyURI": ["https://www.usajobs.gov:443/job/812345600/apply"],
+          "PositionLocationDisplay": "Newark, New Jersey",
+          "PositionLocation": [
+            {"LocationName": "Newark, New Jersey", "CountryCode": "United States", "Longitude": -74.17, "Latitude": 40.73}
+          ],
+          "OrganizationName": "Veterans Health Administration",
+          "DepartmentName": "Department of Veterans Affairs",
+          "JobCategory": [{"Name": "Information Technology Management", "Code": "2210"}],
+          "JobGrade": [{"Code": "GS"}],
+          "PositionSchedule": [{"Name": "Full-time", "Code": "1"}],
+          "PositionOfferingType": [{"Name": "Permanent", "Code": "15317"}],
+          "QualificationSummary": "One year of specialized experience at the GS-09 level.",
+          "PositionRemuneration": [
+            {"MinimumRange": "74678.0", "MaximumRange": "97087.0", "RateIntervalCode": "PA", "Description": "Per Year"}
+          ],
+          "PublicationStartDate": "2026-10-20T00:00:00.0000",
+          "ApplicationCloseDate": "2026-10-30T23:59:59.9970",
+          "UserArea": {
+            "Details": {
+              "JobSummary": "Protect VA networks.",
+              "WhoMayApply": {"Name": "United States Citizens", "Code": ""},
+              "LowGrade": "11",
+              "HighGrade": "11",
+              "MajorDuties": ["Monitor systems.", "", "Respond to incidents."],
+              "Education": "",
+              "Requirements": "U.S. citizenship",
+              "HowToApply": "Apply online.",
+              "HiringPath": ["public", "vet"],
+              "TeleworkEligible": true,
+              "RemoteIndicator": false,
+              "TotalOpenings": "2",
+              "SecurityClearance": "Secret"
+            },
+            "IsRadialSearch": false
+          }
+        },
+        "RelevanceRank": 0
+      },
+      {
+        "MatchedObjectId": "812345601",
+        "MatchedObjectDescriptor": {
+          "PositionID": "NPS-26-INT-9",
+          "PositionTitle": "Student Trainee (Park Ranger)",
+          "PositionURI": "https://www.usajobs.gov:443/job/812345601",
+          "ApplyURI": [],
+          "PositionLocation": [
+            {"LocationName": "Morristown, New Jersey"},
+            {"LocationName": "Sandy Hook, New Jersey"}
+          ],
+          "OrganizationName": "National Park Service",
+          "DepartmentName": "Department of the Interior",
+          "JobGrade": [{"Code": "GS"}],
+          "PositionSchedule": [{"Name": "Part-time", "Code": "2"}],
+          "PositionOfferingType": [{"Name": "Internships", "Code": "15328"}],
+          "PositionRemuneration": [
+            {"MinimumRange": "18.50", "MaximumRange": "24.00", "RateIntervalCode": "PH", "Description": "Per Hour"}
+          ],
+          "PublicationStartDate": "2026-10-22T00:00:00.0000",
+          "ApplicationCloseDate": "2026-10-23T23:59:59.9970",
+          "UserArea": {
+            "Details": {
+              "JobSummary": null,
+              "LowGrade": "04",
+              "HighGrade": "05",
+              "HiringPath": ["student"],
+              "TeleworkEligible": false,
+              "RemoteIndicator": "False"
+            }
+          }
+        }
+      },
+      {
+        "MatchedObjectId": "812345602",
+        "MatchedObjectDescriptor": {
+          "PositionID": "DOS-26-VSFS",
+          "PositionTitle": "Virtual Student Federal Service Intern",
+          "PositionURI": "https://www.usajobs.gov:443/job/812345602",
+          "PositionLocationDisplay": "Anywhere in the U.S. (remote job)",
+          "OrganizationName": "Department of State",
+          "PositionRemuneration": [
+            {"MinimumRange": "0.0", "MaximumRange": "0.0", "RateIntervalCode": "WC", "Description": "Without Compensation"}
+          ],
+          "ApplicationCloseDate": "2026-10-01T23:59:59.9970",
+          "UserArea": {"Details": {"RemoteIndicator": true}}
+        }
+      }
+    ],
+    "UserArea": {"NumberOfPages": "50", "IsRadialSearch": false}
+  }
+}
